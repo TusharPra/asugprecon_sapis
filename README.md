@@ -1,41 +1,88 @@
-# Session ID - Session Title
+# Event-Driven Hyperautomation using SAP Integration Suite and SAP Build
 
 ## Description
 
-This repository contains the material for the SAP TechEd 2022 session called Session ID - Session Title.  
+Learn how to build an event-driven hyperautomation scenario where you react and respond to a new hire business event from SAP SuccessFactors using SAP Integration Suite. From SAP Integration Suite we will leverage Advanced Event Mesh and Cloud Integration capabilities.
+This also includes human interactions to achieve an end-to-end employee onboarding business process using SAP Build Process Automation.
+
+## Speakers
+<img src="/images/speakers.png" width=100% height=100%>
 
 ## Overview
+  
+This session introduces attendees to <b>Hyperautomation</b>. Gartner identified hyperautomation as the Top 10 Strategic Technology Trends for 2022 and it defines hyperautomation as:
+<br/><br/>
+<i>“Hyperautomation is a business-driven, disciplined approach that organizations use to rapidly identify, vet and automate as many business and IT processes as possible. Hyperautomation involves the orchestrated use of multiple technologies, tools or platforms, including: artificial intelligence (AI), machine learning, event-driven software architecture, robotic process automation (RPA), business process management (BPM) and intelligent business process management suites (iBPMS), integration platform as a service (iPaaS), low-code/no-code tools, packaged software, and other types of decision, process and task automation tools.”</i>
 
-This session introduces attendees to...
 
-## Requirements
+<b>SAP Integration Suite</b> & <b>SAP Build Process Automation</b> can support our customers today by quickly identifying, vetting and automating as many processes as possible.
 
-The requirements to follow the exercises in this repository are...
+Check out the following chapters to understand and achieve an end-to-end employee onboarding business process integration scenario that is documented in this session:
+
+- [Scenario Introduction](intro/intro1)
+- [New hire event configuration in SAP SuccessFactors (for your information only)](intro/intro2) 
+- [SAP Integration Suite, advanced event mesh configuration (for your information only)](intro/intro3) 
+
+
+## Prerequisites
+
+There are no prior requirements to this session. You can perform this exercise even if you do not have any experience with SAP Integration Suite and SAP Build Process Automation. However, you will be able to derive more value from this session, if you have some knowledge on SAP Integration Suite and SAP Build Process Automation and how it helps with enterprise-wide business process integration and automation needs.
+
+You can check out the following SAP Discovery Center missions that will help you in getting started with SAP Integration Suite, SAP Build Proces Automation and SAP Integration Suite, advanced event mesh 
+
+* [SAP Integration Suite](https://discovery-center.cloud.sap/serviceCatalog/integration-suite)
+* [SAP Build Process Automation](https://discovery-center.cloud.sap/serviceCatalog/sap-build-process-automation)
+* [SAP Integration Suite, advanced event mesh](https://discovery-center.cloud.sap/serviceCatalog/advanced-event-mesh)
+
+## System logon & user information
+
+For running through the exercises, you will get access to the following applications:
+- [SAP Integration Suite tenant 1](https://teched-us01.integrationsuite.cfapps.us10-002.hana.ondemand.com/) or [SAP Integration Suite tenant 2](https://teched-us02.integrationsuite.cfapps.us10-002.hana.ondemand.com/)
+- [SAP Build Process Automation - Task Center](https://teched-2022-in260-tk4694cz.sap-process-automation.cfapps.us10.hana.ondemand.com/comsapspaprocessautomation.comsapspainbox/inbox.html)
+
+User and password information will be provided to you by the instructors.
+
+When you run through the exercise steps, you need to ensure that the technical IDs of the integration artifacts that you will create are unique. Hence, add a participant number to your integration artifacts. The participant number will be assigned to you by the instructors.
 
 ## Exercises
 
-Provide the exercise content here directly in README.md using [markdown](https://guides.github.com/features/mastering-markdown/) and linking to the specific exercise pages, below is an example.
+The complete list of exercise steps is listed below, run through them in the given order.
+<br>You can use this section as a Table of Contents. Use the breadcrumb navigation on top of the pages to go back to the Table of Contents.
 
-- [Getting Started](exercises/ex0/)
-- [Exercise 1 - First Exercise Description](exercises/ex1/)
-    - [Exercise 1.1 - Exercise 1 Sub Exercise 1 Description](exercises/ex1#exercise-11-sub-exercise-1-description)
-    - [Exercise 1.2 - Exercise 1 Sub Exercise 2 Description](exercises/ex1#exercise-12-sub-exercise-2-description)
-- [Exercise 2 - Second Exercise Description](exercises/ex2/)
-    - [Exercise 2.1 - Exercise 2 Sub Exercise 1 Description](exercises/ex2#exercise-21-sub-exercise-1-description)
-    - [Exercise 2.2 - Exercise 2 Sub Exercise 2 Description](exercises/ex2#exercise-22-sub-exercise-2-description)
+- [Exercise 1 - Copy, configure and deploy the Welcome Email subscription flow](exercises/ex1/README.md)
 
-  
-**OR** Link to the Tutorial Navigator for example...
+    - [Create a new integration package](exercises/ex1/ex11/README.md)
 
-Start the exercises [here](https://developers.sap.com/tutorials/abap-environment-trial-onboarding.html).
+    - [Copy the integration flow template](exercises/ex1/ex12/README.md)
 
-**IMPORTANT**
+    - [Configure and deploy the integration flow](exercises/ex1/ex13/README.md)
 
-Your repo must contain the .reuse and LICENSES folder and the License section below. DO NOT REMOVE the section or folders/files. Also, remove all unused template assets(images, folders, etc) from the exercises folder. 
+    - [Check the deployment status](exercises/ex1/ex14/README.md)
+      
+- [Exercise 2 - Copy, configure and deploy the Equipment and Training Approval subscription flow](exercises/ex2/README.md)
 
-## How to obtain support
+    - [Copy the integration flow template](exercises/ex2/ex21/README.md)
 
-Support for the content in this repository is available during the actual time of the online session for which this content has been designed. Otherwise, you may request support via the [Issues](../../issues) tab.
+    - [Configure and deploy the integration flow](exercises/ex2/ex22/README.md)
+
+    - [Check the deployment status](exercises/ex2/ex23/README.md)
+      
+- [Exercise 3 - Onboard New Employee in SAP SuccessFactors (for your information only)](exercises/ex3/README.md)
+
+    - [Add a new employee (instructor will complete this exercise for all the participants)](/exercises/ex3/ex31)
+      
+- [Exercise 4 - Verify Scenario Success](exercises/ex4/README.md)
+
+    - [Check the Cloud Integration Monitoring](/exercises/ex4/ex41)
+      
+    - [Check your Email Inbox and Click through Qualtrics Survey](/exercises/ex4/ex42)
+      
+    - [Approve the new hire in SAP Build Process Automation Inbox](/exercises/ex4/ex43)
+
+## Start today with SAP Integration Suite
+
+[Links to learn more about SAP Integration Suite](intro/intro4)
 
 ## License
+
 Copyright (c) 2022 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSES/Apache-2.0.txt) file.
