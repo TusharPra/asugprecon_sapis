@@ -1,42 +1,21 @@
-# Exercise 2 - Exercise 2 Description
 
-In this exercise, we will create...
+## Exercise 2 - Copy, configure and deploy the Equipment and Training Approval subscription flow
 
-## Exercise 2.1 Sub Exercise 1 Description
+In the second part of the exercise, you will setup an integration flow that listens to the Advanced Event Mesh queue that is subscribed to the topic `SuccessFactors/NewHire` exposed by SAP SuccessFactors. This triggers a workflow where the manager can decide the equipment and training required for the newly hired employee created in SAP SuccessFactors. To achieve this, we will be using SAP Build Process Automation, the AI-powered, intuitive, and no-code solution for workflow management and RPA availble on the SAP Business Technology Platform.
 
-After completing these steps you will have created...
+## Exercise steps
 
-1. Click here.
-<br>![](/exercises/ex2/images/02_01_0010.png)
+Run through the exercise steps in the given order.
 
-2.	Insert this line of code.
-```abap
-response->set_text( |Hello ABAP World! | ). 
-```
+[Copy the integration flow template](ex21)
 
+[Configure and deploy the integration flow](ex22)
 
+[Check the deployment status](ex23)
 
-## Exercise 2.2 Sub Exercise 2 Description
-
-After completing these steps you will have...
-
-1.	Enter this code.
-```abap
-DATA(lt_params) = request->get_form_fields(  ).
-READ TABLE lt_params REFERENCE INTO DATA(lr_params) WITH KEY name = 'cmd'.
-  IF sy-subrc = 0.
-    response->set_status( i_code = 200
-                     i_reason = 'Everything is fine').
-    RETURN.
-  ENDIF.
-
-```
-
-2.	Click here.
-<br>![](/exercises/ex2/images/02_02_0010.png)
 
 ## Summary
 
-You've now ...
+At the end of the second part of the tutorial, you should have configured and deployed an integration flow to trigger the Equipment and Training Approval workflow.
 
-Continue to - [Exercise 3 - Excercise 3 ](../ex3/README.md)
+Continue to - [Exercise 3 - Onboard New Employee in SAP SuccessFactors (for your information only)](/exercises/ex3/README.md)
