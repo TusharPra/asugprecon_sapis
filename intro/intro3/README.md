@@ -22,7 +22,7 @@ Run through the following steps in the given order:
 2. <b>AMQP endpoint:</b> This is the endpoint used by the Integration Flows in Cloud Intgeration capability of SAP Integration Suite to connect to AEM. 
 <br><img src="/intro/intro3/images/AEM_02.jpg" width=90% height=90%> 	
 
-3. <b>Queues:</b> For each participant there are 2 queues are preconfigured. **HO010_XX_Email** and **HO010_XX_Workflow** with **XX** the participant number assigned to you. You will deploy 2 Integration Flows, each subscribing to one of the queues.
+3. <b>Queues:</b> For each participant there are 2 queues are preconfigured. **ASUGHO_USRXX_Email** and **ASUGHO_USRXX_Workflow** with **XX** the participant number assigned to you. You will deploy 2 Integration Flows, each subscribing to one of the queues.
 <br><img src="/intro/intro3/images/AEM_03.jpg" width=90% height=90%> 	
 
 4. <b>Topic Subscription:</b> Each of the queues is subscribed to the topic exposed by SAP SuccessFactors i.e. `SuccessFactors/NewHire`. For each New Hire in SFSF an event is raised once and send to AEM topic. Each subscriber (=queue) gets its own copy of the event and can process it indepedently. 
