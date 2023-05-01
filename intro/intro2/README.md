@@ -1,6 +1,6 @@
 # New Hire event configuration in SAP SuccessFactors (for your information only)
 
-To enable the <b>New Hire</b> event in <b>SAP SuccessFactors(SFSF) Employee Central</b>, the following configuration steps has already been done for you. This section is for your information only, no SFSF system access has been provided for this hands-on session. 
+To enable the <b>New Hire</b> event in <b>SAP SuccessFactors(SFSF) Employee Central</b>, the following configuration steps has already been done for you. This section is for your information only, no SFSF system access has been provided for this hands-on session.  
 
 Run through the following steps in the given order:
 
