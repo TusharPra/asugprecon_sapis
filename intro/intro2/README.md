@@ -46,7 +46,7 @@ After the review, save it to deploy it to the server.
 11. Go to <b>Intelligent Service Center(ISC)</b>, where you can configure this integration against the <b>Employee Hire</b> event.
     <br><img src="/intro/intro2/images/IC_Goto_ISC.png" width=90% height=90%>
     
-12. In the <b>Integration Services Center</b>, we have configured the <b>D-Com 2023 HO010 - Hyperautomation</b> integration against the <b>Employee Hire</b> event along with the given rule.
+12. In the <b>Integration Services Center</b>, we have configured the <b>ASUG 2023 Integration - Hyper Automation</b> integration against the <b>Employee Hire</b> event along with the given rule.
     <br><img src="/intro/intro2/images/Integration_Services_Center.png" width=90% height=90%>   
     <br><img src="/intro/intro2/images/Integration_Services_Center_Rule.png" width=90% height=90%>    
     
