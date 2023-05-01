@@ -13,7 +13,7 @@ Run through the following steps in the given order:
 3. Select <b>My Integrations</b> from the Integration Center landing page.
     <br><img src="/intro/intro2/images/Integration_Center.png" width=90% height=90%>
 
-4. We have aready created an integration with the name <b>D-Com 2023 HO010 - Hyperautomation</b>.<br/>
+4. We have aready created an integration with the name <b>ASUG 2023 Integration - Hyper Automation</b>.<br/>
 In this we have defined the <b>New Hire</b> attributes and <b>REST Destination</b> to publish the new hire event data to <b>SAP Integration Suite, Advanced Event Mesh</b> where any one can subscribe to the new hire event.</br></br>
 Click on the <b>Edit Integration</b> button to see the integration details.
     <br><img src="/intro/intro2/images/Integration_Center_List.png" width=90% height=90%>
