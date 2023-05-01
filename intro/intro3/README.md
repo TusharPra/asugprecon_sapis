@@ -23,10 +23,10 @@ Run through the following steps in the given order:
 <br><img src="/intro/intro3/images/AEM_02.jpg" width=90% height=90%> 	
 
 3. <b>Queues:</b> For each participant there are 2 queues are preconfigured. **ASUGHO_USRXX_Email** and **ASUGHO_USRXX_Workflow** with **XX** the participant number assigned to you. You will deploy 2 Integration Flows, each subscribing to one of the queues.
-<br><img src="/intro/intro3/images/AEM_03.jpg" width=90% height=90%> 	
+<br><img src="/intro/intro3/images/AEM_031.jpg" width=90% height=90%> 	
 
 4. <b>Topic Subscription:</b> Each of the queues is subscribed to the topic exposed by SAP SuccessFactors i.e. `SuccessFactors/NewHire`. For each New Hire in SFSF an event is raised once and send to AEM topic. Each subscriber (=queue) gets its own copy of the event and can process it indepedently. 
-<br><img src="/intro/intro3/images/AEM_04.jpg" width=90% height=90%> 	
+<br><img src="/intro/intro3/images/AEM_041.jpg" width=90% height=90%> 	
 
 ## Summary
 
