@@ -22,7 +22,7 @@ Run through the following steps.
 2. In the upcoming dialog, maintain the Queue name **ASUGHO_USRXX_Workflow**, replacing **XX** with the participant number assigned to you.
 <br>![Script collection](/exercises/ex2/images/02-0006.png)
     
-3. Switch to the <b>More</b> Tab in the same dialog and replace **Manager_EmailID** to **userXX@techedusers.com** , replacing **XX** with the participant number assigned to you and **NewHire_EmailID** with your email address where you can login and check the emails. This has been done to overwrite the email id of the newly hired candidate so that you can get the approval status email from the manager to your own email id.
+3. Switch to the <b>More</b> Tab in the same dialog and replace **Manager_EmailID** to **userXX@asugusers.com** , replacing **XX** with the participant number assigned to you and **NewHire_EmailID** with your email address where you can login and check the emails. This has been done to overwrite the email id of the newly hired candidate so that you can get the approval status email from the manager to your own email id.
 <br>Then select *Save*, in case of any warning just ignore it. Once saved, select *Deploy*
 <br><img src="/exercises/ex2/images/02-0007.png" width=80%>
     
