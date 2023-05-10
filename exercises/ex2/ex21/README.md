@@ -9,7 +9,7 @@ Run through the following steps
 2. Expand the Navigation pane and switch to the *Design --> Integrations* area
 <br><img src="/exercises/ex1/images/01-0001.png" width=50%>
 
-3. Use _Filter_ with **SOLUTION** to find  the package **D-Com 2023 HO010 - SOLUTION**, click and navigate to the <b>Artifacts</b> tab.
+3. Use _Filter_ with **SOLUTION** to find  the package **ASUG 2023 Hyper Automation - SOLUTION**, click and navigate to the <b>Artifacts</b> tab.
 <br>![Maintain package name](/exercises/ex2/images/02-0001.png)
 
 4. From the *Actions* menu of the **SAP SFSF New Hire Onboarding Process using SAP Build Process Automation**, select the menu entry *Copy*
