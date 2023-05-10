@@ -19,7 +19,7 @@ Run through the following steps.
 1. After having copied the equipment and training approval integration flow template. From the *Actions* menu of your integration flow, select the menu entry *Configure*
 <br>![Script collection](/exercises/ex2/images/02-0005.png)
 
-2. In the upcoming dialog, maintain the Queue name **HO010_XX_Workflow**, replacing **XX** with the participant number assigned to you.
+2. In the upcoming dialog, maintain the Queue name **ASUGHO_USRXX_Workflow**, replacing **XX** with the participant number assigned to you.
 <br>![Script collection](/exercises/ex2/images/02-0006.png)
     
 3. Switch to the <b>More</b> Tab in the same dialog and replace **Manager_EmailID** to **userXX@techedusers.com** , replacing **XX** with the participant number assigned to you and **NewHire_EmailID** with your email address where you can login and check the emails. This has been done to overwrite the email id of the newly hired candidate so that you can get the approval status email from the manager to your own email id.
