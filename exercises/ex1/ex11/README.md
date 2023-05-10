@@ -14,7 +14,7 @@ Run through the following steps
 3. In the Design area, select button *Create*
 <br>![Create button](/exercises/ex1/images/01-0002.png)
 
-4. In the new package, maintain the unique name **ASUG_2023_HO010-XX** with **XX** replaced with the participant number assigned to you
+4. In the new package, maintain the unique name **ASUG_2023_HO-XX** with **XX** replaced with the participant number assigned to you
 5. Maintain a short description
 6. When done, click on *Save*
 <br>![Maintain package name](/exercises/ex1/images/01-0003.png)
