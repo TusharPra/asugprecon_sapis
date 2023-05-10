@@ -20,7 +20,7 @@ Run through the following steps
 1. After having copied the integration flow template, you should see one integration flow in your package. From the *Actions* menu of your integration flow, select the menu entry <b>Configure</b>
 <br>![Script collection](/exercises/ex1/images/01-0010.png)
 
-2. In the upcoming dialog, maintain the Queue name **HO010_XX_Email**, replacing **XX** with the participant number assigned to you.
+2. In the upcoming dialog, maintain the Queue name **ASUGHO_USRXX_Email**, replacing **XX** with the participant number assigned to you.
 <br>![Script collection](/exercises/ex1/images/01-0011.png)
     
 3. Switch to the <b>Receiver</b> Tab in the same dialog and replace **New Hire EMail ID** with your own Email ID where you can login and check the emails. This has been done to overwrite the email id of the newly hired candidate so that each one of you can get the welcome email on your own configured email id. 
