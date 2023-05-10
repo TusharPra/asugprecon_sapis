@@ -8,7 +8,7 @@ Run through the following steps
 1. After having created your package in the previous exercise steps, navigate back by selecting *Integrations* on the breadcrumb navigation
 <br><img src="/exercises/ex1/images/01-0004.png" width=50% height=50%>
     
-2. In the Design area, open the **D-Com 2023 HO010 - SOLUTION** package
+2. In the Design area, open the **ASUG 2023 Hyper Automation - SOLUTION** package
 <br><img src="/exercises/ex1/images/01-0005.png" width=50% height=50%>
     
 3. In the package, switch to the <b>Artifacts</b> tab
