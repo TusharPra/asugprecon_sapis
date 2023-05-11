@@ -40,7 +40,7 @@ For running through the exercises, you will get access to the following applicat
 - [SAP Integration Suite tenant 1](https://asug-b2b-01.integrationsuite.cfapps.us10-002.hana.ondemand.com/shell/home) or [SAP Integration Suite tenant 2](https://asug-b2b-02.integrationsuite.cfapps.us10-002.hana.ondemand.com/shell/home)
 - [SAP Build Process Automation - Task Center](https://teched-2022-in260-tk4694cz.sap-process-automation.cfapps.us10.hana.ondemand.com/comsapspaprocessautomation.comsapspainbox/inbox.html)
 
-User and password information will be provided to you by the instructors.
+User and password information would be UserXX and Password: Welcome1 where XX is your assigned group number.
 
 When you run through the exercise steps, you need to ensure that the technical IDs of the integration artifacts that you will create are unique. Hence, add a participant number to your integration artifacts. The participant number will be assigned to you by the instructors.
 
